@@ -84,7 +84,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="nav-icon fab fa-facebook"></i><p>Join Discussion</p>
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr" class="nav-link"><i class="nav-icon fab fa-facebook"></i><p>Join Discussion</p>
                         </a>
                     </li>
 
