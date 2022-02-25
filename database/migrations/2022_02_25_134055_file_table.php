@@ -13,14 +13,13 @@ class FileTable extends Migration
      */
     public function up()
     {
-        Schema::create('files',function(Blueprint $table){
+        Schema::create('file',function(Blueprint $table){
             $table->bigIncrements('id');
-            $table->string('name');
-	        $table->string('mobile');
-
-});
+            $table->string('title');
+            $table->string('mobile');
+	        $table->string('link');
+        });
     }
-
     /**
      * Reverse the migrations.
      *

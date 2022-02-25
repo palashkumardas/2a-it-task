@@ -10,19 +10,9 @@ class FilesController extends Controller
 
         return view('Files');
     }
-
-    function fileinsert(Request $req){
-       $name= $req->input('title');
-        $mobile=$req->input('link');
-        $result=fileModel::insert([
-            'name'=>$name,
-            'mobile'=>$mobile
-        ]);
-        if($result==true){
-            return "success";
-        }
-        else{
-            return "fail";
-        }
-    }
+    // get file
+    function getfileinfo(){
+        $result=json_encode(fileModel::all());
+        return $result;
+     }
 }

@@ -18,7 +18,7 @@ Route::get('/Tutorial', [TutorialsController::class,'TutorialPage']);
 
 // account files page
 Route::get('/Files', [FilesController::class,'FilesPage']);
-Route::post('/fileadd',[FilesController::class,'fileinsert']);
+Route::get('/getfile',[FilesController::class,'getfileinfo']);
 // account message page
 Route::get('/Message', [MessagesController::class,'MessagePage']);
 Route::get('/getmessage',[MessagesController::class,'getmessage']);
