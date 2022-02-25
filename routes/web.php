@@ -21,7 +21,7 @@ Route::get('/Files', [FilesController::class,'FilesPage']);
 Route::post('/fileadd',[FilesController::class,'fileinsert']);
 // account message page
 Route::get('/Message', [MessagesController::class,'MessagePage']);
-
+Route::get('/getmessage',[MessagesController::class,'getmessage']);
 // account certificate page
 Route::get('/Certificate',[CertificateController::class,'CertificatePage']);
 Route::get('/getCertificateData',[CertificateController::class,'getCertificateinfo']);
