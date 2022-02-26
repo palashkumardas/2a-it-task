@@ -59,8 +59,9 @@
         <div class="sidebar ">
             <nav class="mt-2 pb-4">
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
                     <li class="nav-item">
-                        <a href="{{url('/')}}" class="nav-link"><i class="nav-icon fa fa-home"></i><p>Home</p>
+                        <a href="{{url('/Dashboard')}}" class="nav-link"><i class="nav-icon fa fa-home"></i><p>Dasboard</p>
                         </a>
                     </li>
 

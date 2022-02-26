@@ -1,6 +1,6 @@
 <?php
 
-
+use App\Http\Controllers\SiteController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CertificateController;
 use App\Http\Controllers\TutorialsController;
@@ -10,8 +10,11 @@ use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-// account home page
-Route::get('/', [HomeController::class,'HomePage']);
+// index page
+Route::get('/',[SiteController::class,'IndexPage']);
+
+// account dashboard page
+Route::get('/Dashboard', [HomeController::class,'DashboardPage']);
 
 // account tutorials page
 Route::get('/Tutorial', [TutorialsController::class,'TutorialPage']);

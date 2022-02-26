@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    function HomePage(){
-        return view('index');
+    function DashboardPage(){
+        return view('dashboard');
     }
 }
