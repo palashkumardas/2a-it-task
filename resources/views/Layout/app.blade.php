@@ -66,7 +66,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="nav-icon fa fa-desktop"></i><p>Main Site</p>
+                        <a href="/" class="nav-link"><i class="nav-icon fa fa-desktop"></i><p>Main Site</p>
                         </a>
                     </li>
 
